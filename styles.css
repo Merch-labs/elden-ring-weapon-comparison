@@ -30,7 +30,6 @@ header, footer {
 	opacity: 0;
 	transition: width 0.8s ease, opacity 0.7s ease, position 0.8s ease, float 0.8s ease, transform 0.8s ease;
 	column-count: 1;
-	column-gap: 1em;
 	font-size: small;
 
 }
@@ -40,17 +39,16 @@ header, footer {
 	position: relative;
 	bottom:0;
 	height: 90%;
-	column-count: 3;
-	column-gap: 1em;
+	column-count: 1;
+	column-gap: 0 ;
 }
 
 .addButtonDiv{
-	width:12vh;
+	width:6vw;
 	height: 70vh;
 	position:absolute;
 	right:0;
 	float: right;
-	/* background-color: red; */
 }
 
 .logo {
@@ -75,17 +73,16 @@ header, footer {
 }
 
 .addButton {
-	bottom: 0.5em;
-
+	bottom: 0.5vh;
 	background-color: rgba(0, 0, 0, 0.1);
 	border:1px solid #cfae43a9;
 	border-radius: 8px;
 	color: white;
 	text-align: center;
 	position: absolute;
-	height: 6vh;
-	width: 6vh;
-	font-size: 2em;
+	height: 3vw;
+	width: 3vw;
+	font-size: 2vw;
 	right:1vw;
 	top: 50%;
 }
@@ -104,14 +101,14 @@ h1, h2 {
 
 .weaponDropdown {
 	padding: 0.5em;
-	font-size: 1rem;
+	font-size: 1.5vh;
 	background-color: rgba(51, 51, 51);
 	color: rgba(244, 232, 193);
 	border: 2px solid rgba(212, 175, 55);
 	border-radius: 5px;
 	outline: none;
-	width: 18vw;
-	margin: 1em 0;
+	width: 70%;
+	margin: 3vh 0;
 	opacity: 1;
 	position:relative;
 	top:0;
@@ -119,14 +116,13 @@ h1, h2 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1em;
-  font-size: 1.1em;
+  font-size: 1.5vh;
   color:white;
   /* color: #f4e8c1; */
 
 
   /* background-color: rgba(0, 0, 0, 0.5); */
-  padding: 0.5em 0.75em;
+  padding: 0vw 0vw;
   /* border: 0px solid #d4af37; */
   /* border-radius: 6px; */
   font-family: 'Cinzel', serif;
