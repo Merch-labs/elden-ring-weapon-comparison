@@ -90,15 +90,14 @@ function arangeDivs(id = -Infinity) {
 	Array.from(document.getElementsByClassName("weaponDiv")).forEach(
 		async function (item) {
 			if (parseInt(item.id.substring(3)) > id) {
-				// ═╗
-				item.style.float = "right"; // ═╣
-				document.getElementById("addButtonDiv").style.position =
-					"relative"; // ═╣
-			} // ═╬─ animation fix
-			item.style.width = width; //	║
-			await sleep(maxAnimationDuration); //	║
-			item.style.float = "left"; //	║
-			document.getElementById("addButtonDiv").style.position = "absolute"; // ═╝
+													  // ═╗
+				item.style.float = "right"; 						  // ═╣
+				document.getElementById("addButtonDiv").style.position = "relative";	  // ═╣
+												}	  // ═╬─ animation fix
+			item.style.width = width; 							  //  ║
+			await sleep(maxAnimationDuration); 						  //  ║
+			item.style.float = "left"; 							  //  ║
+			document.getElementById("addButtonDiv").style.position = "absolute"; 		  // ═╝
 		}
 	);
 }
