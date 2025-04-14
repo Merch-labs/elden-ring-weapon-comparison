@@ -224,6 +224,7 @@ function addDiv() {
 
 	document.getElementById("addButton").removeAttribute("disabled");
 	divIdCounter++;
+	changeAllStats();
 }
 
 // ====================================================
@@ -234,7 +235,6 @@ async function main() {
 	weapons = await loadJson("weapons.json");
 	addDiv();
 	addDiv();
-	changeAllStats();
 
 	document.getElementById("addButton").addEventListener("click", addDiv);
 	window.addEventListener("resize", arangeDivs);
